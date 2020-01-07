@@ -6,20 +6,20 @@ Therefore is my current goal to bring it back to a more polished state which hol
 implements the whole framework idea I had back then.
 
 # Features
-<img src="Images/playground.png"\>
+<img src="Images/playground.png" width=50%\>
 
 Here are all features I implemented in the project.\
 I will explain these features a bit but if you want a more detailed version
 use this [link](https://learnopengl.com/).
 
 ## Billboards
-<img src="Images/billboard.png"\>
+<img src="Images/billboard.png" width=50%\>
 
 I implement it with two planes and culling disabled, so that the grass texture was renderes on both sides of each plane.
 Since there is not much more to it I implemented wind that let the grass move.
 
 ## Shadowmapping
-<img src="Images/shadowmapping.png"\>
+<img src="Images/shadowmapping.png" width=50%\>
 
 Simple Shadowmapping is done with a 2nd camera as light source.
 Everything in sight of the 2nd camera is in shadow.
@@ -29,7 +29,7 @@ the perspective of the normal camera. Now you know what the light source is seei
 darken everything what it not see.
 
 ## Skybox
-<img src="Images/skybox.png"\>
+<img src="Images/skybox.png" width=50%\>
 
 Skyboxes can be implemented with cubemaps.
 OpenGL has already a implementation for cubemaps so you can load a whole cubemap as texture.
@@ -39,7 +39,7 @@ Skybox-cubemaps are mostly a background scene from one point of view. So it's no
 to combine simple 6 photos from the top, bottom, left, right, front and back of a scene.
 
 ## Bloom & Glow
-<img src="Images/bloom_glow.png"\>
+<img src="Images/bloom_glow.png" width=50%\>
 
 Bloom & Glow shaders gives objects which illuminate light or shine brighter a smooth aura to them.
 This effect on other pixels is called **bleeding**.
@@ -54,7 +54,7 @@ You can download a compiled version from the releases [here](https://github.com/
 There are also standalones for single features. If you try out the main application read the section below for the controls.
 
 ## Controls
-<img src="Images/controls.png"\>
+<img src="Images/controls.png" width=50%\>
 
 Move with the basic WASD-mapping and look around with your mouse.
 If you want to stop the time or accelerate time
