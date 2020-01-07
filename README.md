@@ -68,15 +68,15 @@ The basic idea was to develop a system which allows to create your own whole ren
 With this said, in the current state it is **NOT** possible to create a render-pass with xml.
 To actually implement this I had following image in my head:
 
-// TODO: Image of Framework idea
+<img src="Images/framework_idea.png" width=50%\>
 
 So I wanted to develop shader-stages which input & output can be connected to other
-shader-stages to create a whole render-pass. Now implement asset-loaders, 
+shader-stages to create a whole render-pass. Now implement asset-loaders & various builders.
 With that you should be able to define shaders with shader-stages and plug them together to create a whole render-pass
 without the need of prior knowledge how specific opengl-code is written.
 
 ### But this already exist!
-Yea, I know that it is already implemented in some way in other engines or frameworks.
+Yea, I know that it is already implemented in some way or the other by well-known engines or frameworks.
 But it was my idea back then to play around and get better knowledge with architectures and opengl.
 
 ### What about the endless cycle?
